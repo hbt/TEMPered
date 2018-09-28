@@ -1,0 +1,11 @@
+version: '3.4'
+
+services: 
+  tempered:
+    container_name: tempered
+    build:  
+      context: . 
+    image: hbtlabs/tempered
+    privileged: true
+    command: '/tempered/build/utils/tempered'
+    
