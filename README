@@ -1,3 +1,14 @@
+FORK 
+
+This fork is designed to work for tempered 3.2 USB Vendor/Product: 413d:2107
+
+Usage:
+
+docker-compose run tempered
+
+
+==
+
 This project is a C implementation of a library and program to read all the
 various types of TEMPer thermometer and hygrometer USB devices, as produced by
 RDing Technology and sold under the name PCsensor.
